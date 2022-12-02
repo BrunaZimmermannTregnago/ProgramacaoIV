@@ -1,0 +1,26 @@
+:host {
+  background-color: rgb(230, 255, 193);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+}
+
+#botao-excluir {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#botao-editar {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  color: #6b6b6b;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+
+<span>Nome: {{dog.nome}}</span>
+<span>Data nascimento: {{dog.data_nascimento | date}}</span>
+<span>Responsável: {{dog.responsavel}}</span>
+<div id="botao-editar" (click)="editCard(dog)"><i class="pi pi-pencil"></i></div>
+<div id="botao-excluir" (click)="excluirCard(dog.id)"><i class="pi pi-trash"></i></div>

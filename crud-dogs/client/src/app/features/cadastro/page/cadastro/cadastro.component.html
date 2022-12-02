@@ -1,0 +1,5 @@
+<app-formulario (onSalvar)="salvar($event)" (onEdit)="saveEdit($event)" [dogEdit]="dogEdit"></app-formulario>
+
+<app-card *ngFor="let dog of listaDogs" [dog]="dog" (onExcluir)="excluir($event)" (onEdit)="editar($event)"></app-card>
+
+<p *ngIf="!listaDogs?.length">Nenhum cachorro cadastrado!</p>

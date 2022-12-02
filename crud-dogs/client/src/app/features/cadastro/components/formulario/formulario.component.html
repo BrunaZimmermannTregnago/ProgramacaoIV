@@ -1,0 +1,9 @@
+<input type="text" pInputText [(ngModel)]="nome" placeholder="Nome do cachorro" />
+<input type="text" pInputText [(ngModel)]="data_nascimento" placeholder="Data de nascimento"/>
+<input type="text" pInputText [(ngModel)]="raca" placeholder="Raça"/>
+<input type="number" pInputText [(ngModel)]="peso" placeholder="Peso"/>
+<input type="text" pInputText [(ngModel)]="porte" placeholder="Porte"/>
+<input type="text" pInputText [(ngModel)]="endereco" placeholder="Endereço"/>
+<input type="text" pInputText [(ngModel)]="contato" placeholder="Contato"/>
+<input type="text" pInputText [(ngModel)]="responsavel" placeholder="Responsável"/>
+<app-botao descricao="Salvar" (onClick)="(id != null ? editar() : salvar())"></app-botao>
